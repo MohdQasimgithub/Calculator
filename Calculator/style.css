@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(218, 230, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+    background-color: rgb(25, 73, 82);
+    border-radius: 1rem;
+}
+.container{
+    border: 1px solid grey;
+    width: 300px;
+   
+}
+#display{
+    height: 5rem;
+    /* padding: 10px; */
+    border: 1px solid grey;
+    margin: 20px 12px;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    overflow-x:auto;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+
+.btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 18px;
+    background-color: rgb(205, 201, 201);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 12px;
+    padding-bottom: 12px;
+ 
+}
+#btnEqual{
+    background-color: orange;
+}
+#C{
+    background-color: grey;
+}
+#btnPercentage{
+    background-color: grey;
+}
+#btnDel{
+    background-color: grey;
+}
+#btnDivide{
+    background-color: grey;
+}
+#btnMultiply{
+    background-color: grey;
+}
+#btnMinus{
+    background-color: grey;
+}
+#btnPlus{
+    background-color: grey;
+}
